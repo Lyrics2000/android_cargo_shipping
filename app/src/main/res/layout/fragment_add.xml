@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AddFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="center"
+       android:background="@drawable/gradiesn"
+       android:gravity="center"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/poppins_bold"
+          android:text="@string/fill_in_the_details"
+          android:textColor="@color/black"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"
+          android:textSize="24sp" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:fontFamily="@font/poppins"
+
+          android:text="Enter the information below to continue with booking"
+          android:textSize="14sp" />
+
+
+      <EditText
+          android:id="@+id/cargoNameMmM"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/btn_white"
+          android:hint="@string/cargo_name"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:textColorHint="@color/text_color"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:textSize="14sp"
+          android:layout_marginTop="10dp"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginStart="10dp"
+          android:background="@drawable/btn_white"
+          android:layout_marginEnd="10dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:text="Vehicle Type"
+            android:textSize="14sp"
+            android:padding="10dp"
+             android:textColor="@color/black"
+             android:layout_weight="1"
+            />
+
+         <Spinner
+             android:id="@+id/spinenr"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_marginTop="4dp"
+             android:padding="10dp"
+
+             />
+
+
+      </LinearLayout>
+      <EditText
+          android:id="@+id/phoneMmmmm"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/btn_white"
+          android:hint="@string/phone"
+          android:textColorHint="@color/text_color"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:textSize="14sp"
+          android:layout_marginTop="10dp"
+          android:inputType="textPhonetic"
+
+          />
+
+      <EditText
+          android:id="@+id/pickUpOneUppp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/btn_white"
+          android:hint="@string/pick_up"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:textSize="14sp"
+          android:textColorHint="@color/text_color"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginTop="10dp"
+
+
+          />
+
+
+      <EditText
+          android:id="@+id/destinatiimmma"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/btn_white"
+          android:hint="@string/destination"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:textSize="14sp"
+          android:textColorHint="@color/text_color"
+
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginTop="10dp"
+
+
+          />
+
+
+      <EditText
+          android:id="@+id/locationdescsiis"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/btn_white"
+          android:hint="@string/location_description"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:textColorHint="@color/text_color"
+          android:textSize="14sp"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginTop="10dp"
+
+
+          />
+
+      <ProgressBar
+          android:id="@+id/progressBarSubmit"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:visibility="gone"
+         android:layout_marginTop="10dp"/>
+
+      <Button
+          android:id="@+id/btn_submitiii"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:fontFamily="@font/poppins"
+          android:background="@drawable/btn"
+          android:padding="10dp"
+          app:backgroundTint="@null"
+          android:textColor="@color/white"
+
+          android:textSize="14sp"
+          android:text="Submit"
+          android:textStyle="bold"/>
+
+
+
+
+   </LinearLayout>
+
+</FrameLayout>

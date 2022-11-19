@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:iconTint="@color/black"
+        android:icon="@drawable/ic_baseline_home_24">
+
+    </item>
+
+    <item
+
+        android:id="@+id/menu_schedule"
+        android:iconTint="@color/black"
+        android:icon="@drawable/ic_baseline_insert_invitation_24"
+        android:title="@string/schedule">
+
+    </item>
+
+
+
+    <item
+
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="@string/add">
+
+    </item>
+
+
+
+</menu>
